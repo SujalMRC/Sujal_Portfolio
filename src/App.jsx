@@ -6,7 +6,7 @@ function App() {
                   {/* Hero Section */}
       <section className="min-h-[90vh] md:min-h-screen flex items-center justify-center px-6 py-16">
 
-        <div className="max-w-6xl w-full grid md:grid-cols-2 gap-12 items-center">
+        <div className="max-w-6xl w-full grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
 
           {/* Left Side */}
           <motion.div
@@ -72,9 +72,7 @@ function App() {
             <img
               src="/profile.jpg"
               alt="Sujal"
-              className="w-80 h-80 object-cover rounded-3xl border border-zinc-800 shadow-2xl hover:scale-105 transition duration-500"
-            />
-
+              className="w-64 h-64 md:w-80 md:h-80 object-cover rounded-3xl border border-zinc-800 shadow-2xl hover:scale-105 transition duration-500"          />
           </motion.div>
 
         </div>
