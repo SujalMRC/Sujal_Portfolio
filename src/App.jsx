@@ -4,7 +4,7 @@ function App() {
     <div className="bg-black text-white">
 
                   {/* Hero Section */}
-      <section className="min-h-screen flex items-center justify-center px-6">
+      <section className="min-h-[90vh] md:min-h-screen flex items-center justify-center px-6 py-16">
 
         <div className="max-w-6xl w-full grid md:grid-cols-2 gap-12 items-center">
 
