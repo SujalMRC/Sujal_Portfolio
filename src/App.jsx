@@ -27,7 +27,7 @@ function App() {
               Software developer passionate about AI/ML, real-time systems, and building modern digital experiences.
             </p>
 
-            <div className="mt-10 flex gap-4 flex-wrap">
+            <div className="mt-10 flex gap-4 flex-wrap justify-center md:justify-start">
 
               <button className="bg-blue-500 hover:bg-blue-600 px-6 py-3 rounded-xl text-lg font-medium transition">
                 View Projects
